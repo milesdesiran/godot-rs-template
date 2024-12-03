@@ -13,3 +13,7 @@ Clone it, open the `project.godot` file in any Godot version 4.1+.
 # Why
 
 [The setup steps](https://godot-rust.github.io/book/intro/setup.html) [are all pretty](https://godot-rust.github.io/book/intro/hello-world.html) [much the same](https://godot-rust.github.io/book/toolchain/export-web.html) every time.
+
+# Extra Steps
+
+You do still need to [configure the export template](https://godot-rust.github.io/book/toolchain/export-web.html#godot-editor-setup). If you're doing web single-threaded export, [remove this line from the Cargo config](/rust/.cargo/config.toml#L4C1-L4C32).
