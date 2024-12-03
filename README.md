@@ -4,11 +4,11 @@ A template for a godot-rust project.
 
 # How
 
-Clone it, open the `project.godot` file in any Godot version 4.1+.
+Clone it, then run `template.sh`. `template.sh` takes 1 argument, which is the name of your project. So `./template.sh DodgeTheCreeps`.
 
-`template.sh` takes 1 argument, which is the name of your project. So `./template.sh DodgeTheCreeps`.
+Next, open the `project.godot` file in any Godot version 4.1+.
 
-`build-web.sh` does what it sounds like. It will grab and install emscripten and the nightly toolchain for you too.
+`build-web.sh` does what it sounds like. It will grab and install emscripten and the nightly toolchain for you too. If you don't care about web, you can ignore this script.
 
 # Why
 
