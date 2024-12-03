@@ -12,4 +12,5 @@ macos.debug =            "res://../rust/target/debug/lib{YourCrate}.dylib"
 macos.release =          "res://../rust/target/release/lib{YourCrate}.dylib"
 macos.debug.arm64 =      "res://../rust/target/debug/lib{YourCrate}.dylib"
 macos.release.arm64 =    "res://../rust/target/release/lib{YourCrate}.dylib"
-
+web.debug.wasm32 =       "res://../rust/target/wasm32-unknown-emscripten/debug/{YourCrate}.wasm"
+web.release.wasm32 =     "res://../rust/target/wasm32-unknown-emscripten/release/{YourCrate}.wasm"
