@@ -1,6 +1,6 @@
 # What
 
-A template for a godot-rust project.
+A template for a godot-rust project. Only Unix-compatible at the moment, but if you're using Rust, you're _probably_ also on Linux to begin with. I'll make Windows scripts when I feel like it or if someone wants to PR it (does Windows have a `sed`?)
 
 # How
 
