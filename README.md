@@ -4,7 +4,7 @@ A template for a godot-rust project. Only Unix-compatible at the moment, but if 
 
 # How
 
-Clone it, then run `template.sh`. `template.sh` takes 1 argument, which is the name of your project. So `./template.sh DodgeTheCreeps`.
+Clone it, then run `init.sh`. `init.sh` takes 1 argument, which is the name of your project. So `./template.sh DodgeTheCreeps`.
 
 Then, `cd` into the `rust/` directory and `cargo build` it.
 
